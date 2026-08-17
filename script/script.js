@@ -45,9 +45,16 @@ function typeEffect() {
 if (typing) {
     typeEffect();
 }
-const range = document.getElementById("customRange2");
-const priceValue = document.getElementById("priceValue");
 
-range.addEventListener("input", function () {
-    priceValue.value = range.value;
+document.addEventListener("DOMContentLoaded", function () {
+
+    const range = document.getElementById("customRange2");
+    const priceValue = document.getElementById("priceValue");
+
+    if (range && priceValue) {
+        range.addEventListener("input", function () {
+            priceValue.value = range.value;
+        });
+    }
+
 });
