@@ -1104,3 +1104,11 @@ font-size: 55px;
 .font{
     font-size: 20px;
 }
+.layout-img{
+  max-width: 500px;
+  /* height: 200px; */
+}
+.layout-img img{
+    width:100%;
+    height: auto;
+}
