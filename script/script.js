@@ -46,6 +46,8 @@ if (typing) {
     typeEffect();
 }
 
+//form value//
+
 document.addEventListener("DOMContentLoaded", function () {
 
     const range = document.getElementById("customRange2");
@@ -58,3 +60,50 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
+
+//repeat typing //
+
+const  repeatwords = [
+    "Layouts",
+    "Footers",
+    "Online Shops"
+];
+
+let  repeatwordIndex = 0;
+let repeatcharIndex = 0;
+let repeatisDeleting = false;
+
+const repeatTyping = document.getElementById("repeatTyping");
+
+function repeattypeEffect() {
+
+    const currentWord = repeatwords[repeatwordIndex];
+
+    if (!repeatisDeleting) {
+
+        repeatTyping.textContent = currentWord.substring(0, repeatcharIndex + 1);
+        repeatcharIndex++;
+
+        if (repeatcharIndex === currentWord.length) {
+            repeatisDeleting = true;
+            setTimeout(repeattypeEffect, 1500);
+            return;
+        }
+
+    } else {
+
+     repeatTyping.textContent = currentWord.substring(0, repeatcharIndex - 1);
+        repeatcharIndex--;
+
+        if (repeatcharIndex === 0) {
+            repeatisDeleting = false;
+            repeatwordIndex = (repeatwordIndex + 1) % repeatwords.length;
+        }
+    }
+
+    setTimeout(repeattypeEffect, repeatisDeleting ? 70 : 120);
+}
+
+if (repeatTyping) {
+    repeattypeEffect();
+}

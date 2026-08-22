@@ -1115,3 +1115,60 @@ font-size: 55px;
 .m-left{
     margin-left: 185px;
 }
+.icon{
+    font-size: 30px;
+}
+.avada-cta{
+    padding-top: 100px;
+}
+.layoutcta-img{
+    max-width: 520px;
+}
+.layoutcta-img  img{
+     max-width:100%;
+    height: auto;
+}
+#repeatTyping{
+    color: #000;
+    display: inline-block;
+    transition: .3s;
+}
+.avada-cta a {
+    color: #000;
+   
+}
+.entire-website{
+    padding: 100px;
+}
+.m-size{
+    max-width:250px;
+}
+.m-size img{
+    width: 100%;
+    height: auto;
+}
+.m-top{
+    padding-top: 100px;
+}
+.entire-website a {
+    color: #000;
+    text-decoration: underline;
+}
+.line-btn{
+    text-align: center;
+        margin-right: 45px;
+}
+.line-btn a:hover{
+    color: #65ba3b;
+}
+.design-control{
+    padding-top: 100px;
+    background: #ebffe1;
+}
+.full-design{
+    padding-top: 100px;
+    background: #ebffe1;
+}
+.m-bottom{
+    margin-bottom: 100px;
+}
