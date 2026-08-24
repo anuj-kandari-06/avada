@@ -1135,7 +1135,9 @@ font-size: 55px;
 }
 .avada-cta a {
     color: #000;
-   
+}
+.avada-cta a:hover {
+    color: #65bd7d;
 }
 .entire-website{
     padding: 100px;
@@ -1171,4 +1173,13 @@ font-size: 55px;
 }
 .m-bottom{
     margin-bottom: 100px;
+}
+.full-design .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000;
+    background-color: #fff;
+}
+.full-design .nav-link {
+   color: #000;
+       font-size: 21px;
+    margin-top: 55px;
 }
