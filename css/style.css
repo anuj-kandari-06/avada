@@ -1226,10 +1226,10 @@ ul {
 
 .tool-img {
     max-width: 400px;
-    margin-left: 35%;
+    margin-left: 15%;
 }
 
-.tool-img img {
+.tool-img img , .tools-img img {
     width: 100%;
     height: auto;
 }
@@ -1239,7 +1239,7 @@ ul {
     top: -17px;
 }
 
-.box {
+.box{
     width: 255px;
     margin: 0;
     border: 1px solid #ebfaff;
@@ -1259,6 +1259,7 @@ ul {
 .box h4{
     font-size: 20px;
 }
+
 .box p{
     font-size: 14px;
 }
@@ -1270,4 +1271,40 @@ ul {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+.tools-img{
+   max-width: 400px;
+}
+.duo{
+    width: 255px;
+    margin: 0;
+    border: 1px solid #ebfaff;
+    padding: 25px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.duo-blue {
+    background: #ebfaff;
+}
+
+.duo-yellow {
+    background:#fff9e0;
+}
+
+.duo h4{
+    font-size: 20px;
+}
+
+.duo p{
+    font-size: 14px;
+}
+
+.duo-flex{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.data-text{
+    margin-left:7.6rem;
 }
