@@ -1229,7 +1229,8 @@ ul {
     margin-left: 15%;
 }
 
-.tool-img img , .tools-img img {
+.tool-img img,
+.tools-img img {
     width: 100%;
     height: auto;
 }
@@ -1239,7 +1240,7 @@ ul {
     top: -17px;
 }
 
-.box{
+.box {
     width: 255px;
     margin: 0;
     border: 1px solid #ebfaff;
@@ -1253,29 +1254,33 @@ ul {
 }
 
 .box-yellow {
-    background:#fff9e0;
+    background: #fff9e0;
 }
 
-.box h4{
+.box h4 {
     font-size: 20px;
 }
 
-.box p{
+.box p {
     font-size: 14px;
 }
- .tools-web a {
+
+.tools-web a {
     color: #000;
     text-decoration: underline;
 }
-.box-flex{
+
+.box-flex {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.tools-img{
-   max-width: 400px;
+
+.tools-img {
+    max-width: 400px;
 }
-.duo{
+
+.duo {
     width: 255px;
     margin: 0;
     border: 1px solid #ebfaff;
@@ -1289,22 +1294,110 @@ ul {
 }
 
 .duo-yellow {
-    background:#fff9e0;
+    background: #fff9e0;
 }
 
-.duo h4{
+.duo h4 {
     font-size: 20px;
 }
 
-.duo p{
+.duo p {
     font-size: 14px;
 }
 
-.duo-flex{
+.duo-flex {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.data-text{
-    margin-left:7.6rem;
+
+.data-text {
+    margin-left: 7.6rem;
+}
+
+.menu-img {
+    max-width: 475px;
+}
+
+.menu-img img {
+    width: 100%;
+}
+
+.m-20 {
+    margin-left: 20%;
+}
+
+.menu-contant h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.menu-contant p {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.shadow-box {
+    height: 100%;
+    padding: 30px !important;
+    border: 1px solid #f1f1f1;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 190px;
+    object-fit: contain;
+}
+
+.card-body {
+    padding: 20px 0 0;
+}
+
+.card-title {
+    font-size: 30px;
+    line-height: 1.25;
+}
+
+.card-text {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.gride-card 
+.card-img-top {
+    width: 100%;
+    padding-left: 0px;
+}
+.f-color{
+    color: #4f565d;
+}
+/* .flexible-menu{
+    max-width: 400px;
+    margin: auto;
+}
+.flexible-menu img{
+    width: 100%;
+} */
+.left-m{
+    margin-left:30px;
+}
+
+.flexible{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card-image ,.wooCommerce  {
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+}
+.shope{
+    padding-top: 100px;
+    background-color:#143876;
+    color: #fff;
+}
+#repeatTyping {
+    color: #fff;
+    display: inline-block;
+    transition: .3s;
 }

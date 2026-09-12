@@ -107,3 +107,51 @@ function repeattypeEffect() {
 if (repeatTyping) {
     repeattypeEffect();
 }
+
+
+
+const shopewords = [
+    "Product Pages",
+    "Thank You Pages",
+    "Shop Pages",
+    "Cart Pages",
+];
+
+let shopewordIndex = 0;
+let shopecharIndex = 0;
+let shopeisDeleting = false;
+
+const shopeTyping = document.getElementById("shopeTyping");
+
+function shopeTypingEffect() {
+
+    const currentWord = shopewords[shopewordIndex];
+
+    if (!shopeisDeleting) {
+
+        shopeTyping.textContent = currentWord.substring(0, shopecharIndex + 1);
+        shopecharIndex++;
+
+        if (shopecharIndex === currentWord.length) {
+            shopeisDeleting = true;
+            setTimeout(shopeTypingEffect, 1500);
+            return;
+        }
+
+    } else {
+
+        shopeTyping.textContent = currentWord.substring(0, shopecharIndex - 1);
+        shopecharIndex--;
+
+        if (shopecharIndex === 0) {
+            shopeisDeleting = false;
+            shopewordIndex = (shopewordIndex + 1) % shopewords.length;
+        }
+    }
+
+    setTimeout(shopeTypingEffect, shopeisDeleting ? 70 : 120);
+}
+
+if (shopeTyping) {
+    shopeTypingEffect();
+}
