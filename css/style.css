@@ -1151,11 +1151,11 @@ ul {
     transition: .3s;
 }
 
-.avada-cta a {
+.avada-cta a ,.canvas-off a {
     color: #000;
 }
 
-.avada-cta a:hover {
+.avada-cta a:hover ,.canvas-off a:hover {
     color: #65bd7d;
 }
 
@@ -1428,4 +1428,7 @@ ul {
 
 .wooCommerce img {
     max-width: 500px;
+}
+.canvas-off{
+    padding-top: 100px;
 }

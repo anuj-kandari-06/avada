@@ -155,3 +155,6 @@ function shopeTypingEffect() {
 if (shopeTyping) {
     shopeTypingEffect();
 }
+
+
+
