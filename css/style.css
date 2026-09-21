@@ -1432,3 +1432,14 @@ ul {
 .canvas-off{
     padding-top: 100px;
 }
+.six--box{
+    padding-top: 100px;
+}
+.imgs{
+    max-width: 300px;
+    /* height: 200px; */
+}
+.imgs img{
+    width: 100%;
+    height: auto;
+}
