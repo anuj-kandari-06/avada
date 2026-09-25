@@ -795,7 +795,8 @@ ul {
     background-color: #ffe979;
 }
 
-.builder-contant h2 {
+.builder-contant h2,
+.website-assets h2 {
     font-weight: 700;
     font-size: 40px;
 }
@@ -1151,11 +1152,13 @@ ul {
     transition: .3s;
 }
 
-.avada-cta a ,.canvas-off a {
+.avada-cta a,
+.canvas-off a {
     color: #000;
 }
 
-.avada-cta a:hover ,.canvas-off a:hover {
+.avada-cta a:hover,
+.canvas-off a:hover {
     color: #65bd7d;
 }
 
@@ -1363,14 +1366,15 @@ ul {
     line-height: 1.7;
 }
 
-.gride-card 
-.card-img-top {
+.gride-card .card-img-top {
     width: 100%;
     padding-left: 0px;
 }
-.f-color{
+
+.f-color {
     color: #4f565d;
 }
+
 /* .flexible-menu{
     max-width: 400px;
     margin: auto;
@@ -1378,37 +1382,43 @@ ul {
 .flexible-menu img{
     width: 100%;
 } */
-.left-m{
-    margin-left:30px;
+.left-m {
+    margin-left: 30px;
 }
 
-.flexible{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.four-card{
+.flexible {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.card-image ,.wooCommerce  {
+.four-card {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card-image,
+.wooCommerce {
     width: 600px;
     max-width: 100%;
     height: auto;
 }
-.shope{
+
+.shope {
     padding-top: 100px;
-    background-color:#143876;
+    background-color: #143876;
     color: #fff;
 }
+
 #repeatTyping {
     color: #fff;
     display: inline-block;
     transition: .3s;
 }
-.woocommerce{
+
+.woocommerce {
     padding-top: 100px;
 }
+
 /* .website-card {
     text-align: center;
 } */
@@ -1429,17 +1439,43 @@ ul {
 .wooCommerce img {
     max-width: 500px;
 }
-.canvas-off{
+
+.canvas-off {
     padding-top: 100px;
 }
-.six--box{
+
+.six--box {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
-.imgs{
+
+.imgs {
     max-width: 300px;
     /* height: 200px; */
 }
-.imgs img{
+
+.imgs img {
     width: 100%;
     height: auto;
+}
+
+.f-rem {
+    font-size: 1.05rem;
+}
+
+.website-assets {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #143876;
+}
+
+.website-contant h2{
+    color: #fff;
+}
+.website-contant p{
+    color: #fff;
+}
+.fold-optimization{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
