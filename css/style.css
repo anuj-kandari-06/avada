@@ -1153,12 +1153,14 @@ ul {
 }
 
 .avada-cta a,
-.canvas-off a {
+.canvas-off a,
+.fold-optimization a {
     color: #000;
 }
 
 .avada-cta a:hover,
-.canvas-off a:hover {
+.canvas-off a:hover,
+.fold-optimization a:hover {
     color: #65bd7d;
 }
 
@@ -1469,13 +1471,15 @@ ul {
     background: #143876;
 }
 
-.website-contant h2{
+.website-contant h2 {
     color: #fff;
 }
-.website-contant p{
+
+.website-contant p {
     color: #fff;
 }
-.fold-optimization{
+
+.fold-optimization {
     padding-top: 100px;
     padding-bottom: 100px;
 }
