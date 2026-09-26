@@ -1618,3 +1618,18 @@ ul {
     padding-top: 100px;
     background-color: #fff9e0;
 }
+
+/* --------------------------------------------------------------index.html first page media query start here------------------------------------------------- */
+@media (max-width: 768px){
+    .mar_box{
+        width:300px;
+        margin-bottom: 2.5rem;
+    }
+    .design-banner h2{
+        font-size:2.6rem;
+    }
+    .builder-text h2{
+        font-size: 2.5rem;
+    }
+}
+/* --------------------------------------------------------------index.html first page media query end here------------------------------------------------- */
