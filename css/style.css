@@ -1483,3 +1483,11 @@ ul {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+.avada-mega-menu {
+    width: 460px;
+    padding: 20px !important;
+}
+.rem-f{
+    font-size: 1.3rem;
+}
