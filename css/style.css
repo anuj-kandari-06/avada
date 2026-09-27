@@ -1616,8 +1616,35 @@ ul {
 
 .avada-imgs{
     padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #fff9e0;
 }
+.w-avada{
+    padding-top: 100px;
+}
+.ml-rem{
+    margin-left: 7rem;
+    font-size: 105px;
+}
+.avada-number-card {
+    min-height: 394px;
+}
+.bg-box{
+    background-color: #ffe979;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* --------------------------------------------------------------index.html first page media query start here------------------------------------------------- */
 @media (max-width: 768px){
