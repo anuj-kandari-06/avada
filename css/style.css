@@ -1632,9 +1632,16 @@ ul {
 .bg-box{
     background-color: #ffe979;
 }
-
-
-
+.font-rem{
+    font-size: 1.2rem;
+}
+.three-img{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.s-Wizard{
+    padding-top: 100px;
+}
 
 
 
